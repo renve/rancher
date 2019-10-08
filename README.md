@@ -1,5 +1,4 @@
-Creates a master and two slave centos 7 machines.
-Create a master_data directory in your host computer where Vagrantfile will be executed
+Creates 3 and centos 7 machines. One node will be used for rancher, one for cluster the other as a pseudo work computer.
 
 #if shared volume errors, try installing this
 vagrant plugin install vagrant-vbguest
